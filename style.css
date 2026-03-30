@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, DejaVu Sans, sans-serif;
+  background-color: beige;
+  color: black;
+}
+
+body {
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+header {
+  background: beige;
+  color: black;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+/* HOME */
+.home {
+  text-align: center;
+  padding: 50px;
+  ;
+}
+
+.home img {
+  width: 150px;
+  border-radius: 50%;
+}
+.tagline {
+  margin-top: 10px;
+  font-size: 18px;
+  font-style: italic;
+  color: #555;
+}
+
+/* SECTIONS */
+section {
+  padding: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* PROJECTS */
+.project {
+  background: #eee;
+  padding: 15px;
+  margin: 10px 0;
+  border: 5px black;
+}
+
+/* SKILLS */
+#skills ul {
+  list-style: square;
+}
+
+/* CONTACT */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
